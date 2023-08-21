@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="center about-container" id="About">
       <div className="about-pngs">
-        <img
+        {/* <img
           src="https://assets.website-files.com/5d7fff8297d2f2362bc02ca9/5fa25157d7c72d1dea0b55e4_fresh-1-top.png"
           alt=""
           className="aboutBG-1"
@@ -19,7 +19,7 @@ const About = () => {
           src="https://assets.website-files.com/5d7fff8297d2f2362bc02ca9/5fa251575a35c45b3593c443_fresh-1-dots.png"
           alt=""
           className="aboutBG-3"
-        ></img>
+        ></img> */}
       </div>
       <div className="about-box">
         <p className='aboutMe'>

@@ -26,6 +26,7 @@
   align-self: center;
   display: flex;
   flex-direction: row-reverse;
+  
 }
 
 .project-cont:nth-child(even) .project-card {
@@ -34,8 +35,8 @@
 
 .project-image {
   width: 65%;
-  border: 3px solid #001323;
-  background-color: #d90368;
+  /* border: 3px solid #001323; */
+  /* background-color: #d90368; */
   position: relative;
 }
 
@@ -55,6 +56,7 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  border-radius: 10px;
 }
 
 .img-info {
@@ -67,6 +69,7 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  border-radius: 10px;
 }
 
 .img-photo-app {
@@ -79,6 +82,7 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  border-radius: 10px;
 }
 
 .img-wildfire {
@@ -91,6 +95,7 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  border-radius: 10px;
 }
 
 .img-netflix {
@@ -103,6 +108,7 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  border-radius: 10px;
 }
 
 .img-crypto {
@@ -115,6 +121,7 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  border-radius: 10px;
 }
 .img-portfolio {
   background: url(/src/Images/Port.png);
@@ -126,6 +133,7 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  border-radius: 10px;
 }
 .img-face {
   background: url(/src/Images/Face.png);
@@ -137,6 +145,7 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  border-radius: 10px;
 }
 .img-robo {
   background: url(/src/Images/Robo.png);
@@ -148,6 +157,7 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  border-radius: 10px;
 }
 
 .img-hacks {
@@ -160,6 +170,7 @@
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  border-radius: 10px;
 }
 
 .img-hacks:hover,
@@ -180,6 +191,7 @@
   font-size: 35px;
   text-align: right;
   margin-bottom: -12px;
+  color: #fdfdfd;
 }
 .project-cont:nth-child(even) .name {
   text-align: left;
@@ -191,11 +203,18 @@
   padding: 23px;
   margin-left: -100px;
   text-align: right;
-  border: 2.3px solid #001323;
-  background-color: #fdfdfd;
+  /* border: 2.3px solid #001323;
+  background-color: #fdfdfd; */
   line-height: 25px;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
   z-index: 1;
+  background: rgba( 25, 25, 24, 0.6 );
+  box-shadow: 0 8px 32px 0 rgba(217, 3, 104, 1);
+  backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 6px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  color: #fdfdfd;
 }
 .project-cont:nth-child(even) .info {
   position: static;
@@ -219,6 +238,7 @@
   padding-left: 10px;
   list-style-type: none;
   white-space: pre;
+  color: #fdfdfd;
 }
 
 .project-cont:nth-child(even) .skill {
@@ -276,6 +296,7 @@
   .mp {
     padding: 0px;
     margin-bottom: 20px;
+    font-color: #fdfdfd;
   }
   .info {
     margin-left: 0px;
