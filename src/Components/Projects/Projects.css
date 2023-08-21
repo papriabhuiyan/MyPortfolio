@@ -11,7 +11,7 @@
   padding: 60px;
   font-size: 40px;
   text-decoration: underline;
-  text-decoration-color: #5641ea;
+  text-decoration-color: #d90368;
   text-decoration-thickness: 3.5px;
 }
 
@@ -35,7 +35,7 @@
 .project-image {
   width: 65%;
   border: 3px solid #001323;
-  background-color: #5641ea;
+  background-color: #d90368;
   position: relative;
 }
 
@@ -238,10 +238,10 @@
 }
 
 .demo {
-  color: #5641ea;
+  color: #d90368;
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   padding: 10px 20px 8px 20px;
-  border: 2.3px solid #5641ea;
+  border: 2.3px solid #d90368;
   font-size: 20px;
   background-color: transparent;
   cursor: pointer;
@@ -256,7 +256,7 @@
 
 .demo:hover {
   color: #ffffff;
-  background-color: #5641ea;
+  background-color: #d90368;
 }
 
 @media only screen and (max-device-width: 700px) {

@@ -30,10 +30,10 @@ a:active {
 }
 
 .top {
-  color: #5641ea;
+  color: #d90368;
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   padding: 10px 50px 8px 50px;
-  border: 2.3px solid #5641ea;
+  border: 2.3px solid #d90368;
   font-size: 22px;
   background-color: transparent;
   cursor: pointer;
@@ -41,17 +41,21 @@ a:active {
 }
 
 .top:hover {
-  color: #5641ea;
-  background-color: #d0ccfa;
+  color: #ffffff;
+  background-color: #d90368;
 }
 
 .arrow {
-  border: solid #5641ea;
+  border: solid #d90368;
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 7px;
   margin-right: 10px;
   margin-bottom: -5px;
+}
+.arrow:hover {
+  color: #ffffff;
+  background-color: #d90368;
 }
 
 .up {
