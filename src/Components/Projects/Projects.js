@@ -3,6 +3,7 @@ import "./Projects.css";
 import Fade from "react-reveal/Fade";
 
 const Projects = () => {
+
   const projects = [
     {
       name: "RUMI",

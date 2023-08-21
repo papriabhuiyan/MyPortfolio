@@ -89,12 +89,10 @@
   line-height: 30px;
   width: 70%;
   /* border-radius: 30px; */
-  background: rgba( 25, 25, 24, 0.6 );
-  box-shadow: 0 8px 32px 0 rgba(217, 3, 104, 1);
-  backdrop-filter: blur( 2px );
-    -webkit-backdrop-filter: blur( 6px );
-  border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  background-color: #212121;
+  border-radius: 17px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 1);
+
 }
 
 @media only screen and (max-device-width: 1500px) {
