@@ -56,12 +56,13 @@
 .gooey{
   background-image: linear-gradient(120deg, #d903671b 0%, #d903676d 100%);
   border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
-  width: 900px; height: 844px;
+  width: 870px; height: 800px;
   animation: morph 5s linear infinite; 
   transform-style: preserve-3d;
   outline: 1px solid transparent;
   will-change: border-radius;
   position: absolute;
+  margin-top: -50px;
 }
 .gooey:before,
 .gooey:after{

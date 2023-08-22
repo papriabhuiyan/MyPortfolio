@@ -38,13 +38,10 @@
     text-align: center;
 }
 
+
 .skill-name{
     color: #fdfdfd;
+    font-size: 20px;
 }
 
-@media only screen and (max-device-width: 800px) {
-    .skills-box{
-        justify-content: center;
-        text-align: center;
-    }
-}
+
