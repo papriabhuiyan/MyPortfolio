@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
-
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap"); */
 
 .header {
   position: relative;
-  background-color: #191918;
+  background-color: #151515;
   /* background: url(/src/Images/Hero.png); */
   background-size: cover;
   background-position: center center;
@@ -11,7 +11,9 @@
   top: 80px;
   height: 900px;
   overflow: hidden;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-box {
@@ -29,17 +31,140 @@
   border: 2px solid transparent; /* Start with a transparent border */
   animation: borderPulse 2s infinite;
 }
-@keyframes borderPulse {
-  0% {
-      border-color: transparent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gooey{
+  background-image: linear-gradient(120deg, #d903671b 0%, #d903676d 100%);
+  border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+  width: 900px; height: 844px;
+  animation: morph 5s linear infinite; 
+  transform-style: preserve-3d;
+  outline: 1px solid transparent;
+  will-change: border-radius;
+  position: absolute;
+}
+.gooey:before,
+.gooey:after{
+  content: '';
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  left: 0; top: 0;
+  border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+  /* box-shadow: 5px 5px 89px #212121; */
+  will-change: border-radius, transform, opacity;
+  animation-delay: 200ms;
+  background-image: linear-gradient(120deg, #d903679e 0%, #d903671a 100%);
+}
+
+.gooey:before{
+  animation: morph 3s linear infinite;
+  opacity: .21;
+  animation-duration: 45s;
+}
+
+.gooey:after{
+  animation: morph 3s linear infinite;
+  animation-delay: 400ms;
+  opacity: .89;
+  line-height: 120px;
+  text-indent: -21px;
+}
+
+@keyframes morph{
+  0%,100%{
+  border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+    transform: translate3d(0,0,0) rotateZ(0.01deg);
   }
-  50% {
-      border-color: #3498db; /* Change the border color */
+  34%{
+    border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+    transform:  translate3d(0,5px,0) rotateZ(0.01deg);
+
   }
-  100% {
-      border-color: transparent;
+  50%{
+    opacity: .89;
+    transform: translate3d(0,0,0) rotateZ(0.01deg);
+  }
+  67%{
+    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60% ;
+    transform: translate3d(0,-3px,0) rotateZ(0.01deg);
   }
 }
+
+@keyframes fadeIn{
+  100%{
+    transform: scale(1.03);
+    opacity: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-device-width: 1500px) {
   .header {
@@ -76,7 +201,7 @@
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   text-shadow: -2px 0 #0d1b1e, 0 -2px #0d1b1e, 2px 0 #0d1b1e, 0 2px #0d1b1e, 2px 2px #0d1b1e, -2px -2px #0d1b1e, -2px 2px #0d1b1e,
-    2px -2px #0d1b1e, 5px 5px #d90368;
+    2px -2px #0d1b1e, 5px 5px #151515;
 }
 
 h2 {
@@ -136,14 +261,14 @@ h2 {
 }
 
 .lnk {
-  color: #d90368;
+  color: #fdfdfd;
   padding-right: 10px;
   padding-left: 10px;
   font-size: 28px;
 }
 
 .icon1 {
-  color: #d90368;
+  color: #fdfdfd;
   padding-right: 10px;
   padding-left: 20px;
   font-size: 28px;
@@ -151,7 +276,7 @@ h2 {
 }
 
 .icon2 {
-  color: #d90368;
+  color: #fdfdfd;
   padding-right: 10px;
   padding-left: 10px;
   font-size: 28px;
@@ -159,7 +284,7 @@ h2 {
 }
 
 .icon3 {
-  color: #d90368;
+  color: #fdfdfd;
   padding-right: 20px;
   padding-left: 10px;
   font-size: 28px;
@@ -174,7 +299,7 @@ h2 {
 .line {
   height: 0px;
   width: 1px;
-  border-bottom: 2.3px solid #d90368;
+  border-bottom: 2.3px solid #fdfdfd;
 
   -webkit-animation: increase 5s;
   -moz-animation: increase 5s;

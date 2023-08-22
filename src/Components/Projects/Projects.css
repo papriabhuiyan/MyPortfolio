@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
+
 .project-box {
   width: 1300px;
   display: flex;
@@ -303,6 +305,7 @@
     width: 70%;
   }
   .project-card {
+    display: grid;
     margin-bottom: 10px;
     width: 100%;
     height: 40%;
