@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import PDF from "../Navbar/Resume.pdf";
+import PDF from "../Navbar/Papria_Bhuiyan_Resume.pdf";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Navigation = () => {
@@ -8,6 +8,11 @@ const Navigation = () => {
     <div className="bar" id="Navbar">
       <div className="logo"></div>
       <nav className="nav">
+      <ul className="nav-ul">
+          <AnchorLink className="projects skills" href="#skills">
+            <li>Skills</li>
+          </AnchorLink>
+        </ul>
         <ul className="nav-ul">
           <AnchorLink className="projects" href="#projects">
             <li>Projects</li>
