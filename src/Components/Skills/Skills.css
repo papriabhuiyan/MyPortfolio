@@ -6,10 +6,15 @@
     margin-right: 20px;
     margin-left: 20px;
     justify-content: center;
+
 }
 .skills-box{
     padding-top: 20px;
     text-align: center;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap; */
 }
 .ms {
     margin: 50px;
@@ -21,18 +26,25 @@
     text-decoration-thickness: 3.5px;
     color: #fdfdfd;
   }
+
+  .skills-map {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 .skills-cont{
-    display: inline-block;
+    /* display: inline-block;
     overflow-x: auto;
     /* white-space: nowrap; */
-    justify-content: center;
 }
 .skills-card {
     /* display: inline-block; */
-    min-height: 20px;
+    height: 60px;
     min-width: 150px;
     margin: 19px;
-    padding: 10px;
+    /* padding: 10px; */
     background-color: #212121;
     border-radius: 35px;
     text-align: center;
@@ -47,6 +59,17 @@
 .skill-name{
     color: #fdfdfd;
     font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-self: center;
+    padding: 0 15px 0 15px;
 }
 
 
+@media only screen and (max-device-width: 400px){
+    .skills-card{
+        /* height: 40px; */
+        min-width: 10px;
+        margin: 8px;
+    }
+}

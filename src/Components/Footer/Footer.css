@@ -45,7 +45,7 @@ a:active {
   background-color: #e4005b;
 }
 
-.arrow {
+/* .arrow {
   border: solid #e4005b;
   border-width: 0 3px 3px 0;
   display: inline-block;
@@ -61,5 +61,5 @@ a:active {
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
 
-}
+} */
 

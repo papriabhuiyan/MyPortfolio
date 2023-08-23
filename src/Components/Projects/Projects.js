@@ -17,7 +17,7 @@ const Projects = () => {
     {
       name: "Pixelgram",
       info: " A responsive instagram clone, social media web app that allows users to interact with each other by following each other, posting pictures and viewing, liking, and commenting on posts",
-      skill: "HTML  CSS  Angular  Java Spring Boot  MySQL  AWS",
+      skill: "HTML  CSS  Angular  Spring Boot  MySQL  AWS",
       demo: "",
       demo_type: "Youtube Demo",
       source: "https://github.com/papriabhuiyan/Pixelgram",
@@ -57,7 +57,7 @@ const Projects = () => {
                   <h1 className="name">{project.name}</h1>
                   <p className="info">{project.info}</p>
                   <ul className="project-skills">
-                    <li className="skill">{project.skill}</li>
+                      <li  className="skill">{project.skill}</li>
                   </ul>
                   <div className="project-links">
                     {/* <form action={project.demo} method="get" target="_blank">

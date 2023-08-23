@@ -9,7 +9,7 @@ const Navigation = () => {
       <div className="logo"></div>
       <nav className="nav">
       <ul className="nav-ul">
-          <AnchorLink className="projects skills" href="#skills">
+          <AnchorLink className="projects" href="#skills">
             <li>Skills</li>
           </AnchorLink>
         </ul>

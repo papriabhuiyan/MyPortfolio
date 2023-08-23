@@ -19,7 +19,7 @@ function App() {
   }, []);
   return (
     <div>
-      {loading ? (
+      {/* {loading ? (
         <div class="loading-section">
 	        <h1 className="loading-h1">
             <span className="w-span">W</span>
@@ -31,7 +31,7 @@ function App() {
             <span className="w-span">e</span>
           </h1>
         </div>
-      ) : (
+      ) : ( */}
         <div>
           <Navbar />
           <Fade>
@@ -42,7 +42,7 @@ function App() {
           <Projects />
           <Footer />
         </div>
-      )}
+      {/* )} */}
     </div>
   );
 }

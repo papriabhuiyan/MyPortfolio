@@ -23,7 +23,7 @@
   display: flex;
   justify-content: center;
   background-color: #212121;
-  margin: 50px;
+  margin: 50px 0 50px 0;
   border-radius: 17px;
   padding-top: 50px;
   box-shadow: 6px 6px 22px 0 #070707;
@@ -135,24 +135,28 @@
 
 .project-skills {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .project-cont:nth-child(even) .project-skills {
   display: flex;
   /* justify-content: center; */
   /* justify-content: flex-start; */
-  padding: 0;
+  
 }
-
+ul.project-skills {
+  list-style-type: none;
+  padding-left: 0px;
+}
 .skill {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  padding-left: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   list-style-type: none;
-  white-space: pre;
   color: #fdfdfd;
+  width: 100%;
+  text-decoration: none;
 }
 
 .project-cont:nth-child(even) .skill {
@@ -162,15 +166,11 @@
 
 .project-links {
   display: flex;
-  /* flex-direction: row; */
   margin: 0;
   justify-content: center;
   align-items: center;
 }
 
-.project-cont:nth-child(even) .project-links {
-  /* justify-content: flex-start; */
-}
 
 .demo {
   color: #fdfdfd;
@@ -196,6 +196,12 @@
 .demo:hover {
   color: #e4005b;
   background-color: #fdfdfd;
+}
+
+@media only screen and (max-device-width: 1000px) {
+  .info {
+    padding: 0px;
+  }
 }
 
 @media only screen and (max-device-width: 700px) {

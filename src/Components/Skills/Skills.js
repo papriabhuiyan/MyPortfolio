@@ -16,7 +16,7 @@ const Skills = () => {
         "C#",
         "Docker",
         "AWS",
-        "Sping Framework",
+        "Spring Framework",
         "SQL",
         "PL/SQL",
         "PostgreSQL",
@@ -35,18 +35,24 @@ const Skills = () => {
     return (
         <div className=" skills-container" id="skills">
             <div className="skills-box">
+            <div>
         <Fade>
-          <h1 className="center ms">My Skills</h1>
+            
+            <h1 className="center ms">My Skills</h1>
+            
         </Fade>
+        </div>
+        <div className="skills-map">
         {skills.map((skill) => (
             <Fade>
                 <div className="skills-cont">
                     <div className=" center skills-card floating zoom">
-                        <p className="skill-name"> {skill} </p>
+                        <div className="skill-name"> {skill} </div>
                     </div>
                 </div>
             </Fade>
         ))}
+        </div>
         </div>
         </div>
     );
