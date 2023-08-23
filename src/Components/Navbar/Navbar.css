@@ -4,7 +4,7 @@
   width: 100%;
   display: flex;
   align-items: center;
-  /* color: #d90368; */
+  /* color: #e4005b; */
   /* color: #151515; */
   position: fixed;
   z-index: 2;
@@ -44,9 +44,9 @@
 }
 
 .btn:hover {
-  color: #d90368;
+  color: #e4005b;
   background-color: #151515;
-  border: 2.3px solid#d90368;
+  border: 2.3px solid#e4005b;
 }
 .nav-ul {
   list-style-type: none;

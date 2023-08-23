@@ -11,7 +11,7 @@
   padding: 60px;
   font-size: 40px;
   text-decoration: underline;
-  text-decoration-color: #d90368;
+  text-decoration-color: #e4005b;
   text-decoration-thickness: 3.5px;
   color: #fdfdfd;
 }
@@ -46,7 +46,7 @@
   height: 50%;
   
   /* border: 3px solid #001323; */
-  /* background-color: #d90368; */
+  /* background-color: #e4005b; */
   position: relative;
 }
 
@@ -201,7 +201,7 @@
   font-size: 35px;
   text-align: center;
   margin-bottom: -12px;
-  color: #d90368;
+  color: #e4005b;
 }
 .project-cont:nth-child(even) .name {
   /* text-align: left; */
@@ -273,9 +273,9 @@
   color: #fdfdfd;
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   padding: 10px 20px 8px 20px;
-  /* border: 2.3px solid #d90368; */
+  /* border: 2.3px solid #e4005b; */
   font-size: 20px;
-  background-color: #d90368;
+  background-color: #e4005b;
   cursor: pointer;
   font-family: "Josefin Sans", sans-serif;
   /* margin-left: 13px; */
@@ -291,7 +291,7 @@
 }
 
 .demo:hover {
-  color: #d90368;
+  color: #e4005b;
   background-color: #fdfdfd;
 }
 
@@ -359,5 +359,249 @@
 
   .project-cont:nth-child(even) .demo {
     margin: 5px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.myProjects{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: underline;
+  color: #fdfdfd;
+  text-decoration-color: #e4005b;
+  text-decoration-thickness: 3.5px;
+  margin: 50px;
+  /* margin-bottom: 40px; */
+  padding: 60px;
+  padding-top: 150px;
+  font-size: 40px;
+  
+}
+
+.project-cards {
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
+  padding: 0px;
+  grid-gap: 50px 50px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  grid-auto-rows: 1fr;
+}
+
+.each-card{
+  border-radius: 20px;
+  background-color: #212121;
+  margin: 20px;
+  padding:  20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+}
+.project-image {
+  width: 95%;
+  height: 40%;
+  position: relative;
+  overflow: hidden;
+}
+
+.img-perform-here-landing {
+  background: url(/src/Images/perform-here-landing.png);
+  opacity: 0.75;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+
+.img-pixelgram {
+  background: url(/src/Images/pixelgram.png);
+  opacity: 0.75;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.img-ai-shirt {
+  background: url(/src/Images/ai-shirt.png);
+  opacity: 0.75;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.img-lin-reg-model {
+  background: url(/src/Images/lin-reg-model.png);
+  opacity: 0.75;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.project-data{
+  justify-content: center;
+  align-items: center;
+  color: #fdfdfd;
+}
+.name {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: -12px;
+  color: #e4005b;
+}
+.info {
+  font-size: 20px;
+  text-align: center;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.demo {
+  color: #fdfdfd;
+  background-color: #e4005b;
+  font-size: 20px;
+  padding: 10px 20px 8px 20px;
+  border-radius: 16px;
+  border: none;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+}
+@media (max-width: 1200px) {
+  .project-cards {
+    grid-gap: 50px;
+  }
+
+  .each-card {
+    width: 100%;
+    /* border-radius: 20px 10px 30px 5px; */
+  }
+}
+@media only screen and (max-device-width: 1000px) {
+  .each_card {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-device-width: 600px) {
+  .each_card {
+    width: 50%;
+    height: 50%;
   }
 }

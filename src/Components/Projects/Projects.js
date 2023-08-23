@@ -8,7 +8,7 @@ const Projects = () => {
     {
       name: "Perform Here",
       info: "A responsive web-based application that enables artists to gauge local concert interest by collecting deposites from individuals interested in potential concert events",
-      skill: "HTML  CSS  Angular  Java Spring Boot  MySQL  AWS  Stripe API",
+      skill: "HTML  CSS  Angular  Spring Boot  MySQL  AWS  Stripe API",
       demo: "",
       demo_type: "Youtube Demo",
       source: "https://github.com/papriabhuiyan/Perform-Here-App",
@@ -43,74 +43,74 @@ const Projects = () => {
     },
   ];
   return (
-    // <div className="center projects" id="projects">
-    //   <div className="project-box">
-    //     <Fade>
-    //       <h1 className="center mp ">My Projects</h1>
-    //     </Fade>
-
-    //     {projects.map((project) => (
-    //       <Fade>
-    //         <div className="project-cont">
-    //           <div className="center project-card">
-    //             <div className="center project-data">
-    //               <h1 className="name">{project.name}</h1>
-    //               <p className="info">{project.info}</p>
-    //               <ul className="project-skills">
-    //                 <li className="skill">{project.skill}</li>
-    //               </ul>
-    //               <div className="project-links">
-    //                 {/* <form action={project.demo} method="get" target="_blank">
-    //                   <button className="demo">{project.demo_type}</button>
-    //                 </form> */}
-    //                 <form action={project.source} method="get" target="_blank">
-    //                   <button className="demo">View Source</button>
-    //                 </form>
-    //               </div>
-    //             </div>
-    //             <div className="center project-image">
-    //               <div className={project.img}></div>
-    //             </div>
-    //           </div>
-    //         </div>
-    //       </Fade>
-    //     ))}
-    //   </div>
-    // </div>
-    
-    <div className="projects-section" id="projects">
+    <div className="center projects" id="projects">
       <div className="project-box">
         <Fade>
-          <h1 className="myProjects">My Projects</h1>
+          <h1 className="center mp ">My Projects</h1>
         </Fade>
-      </div>
-      <div className="project-cont">
-        <div className="project-cards">
-          {projects.map((project)=> (
-              <Fade>
-                <div className="each-card">
-                <div className="center project-image">
-                  <div className={project.img}></div>
-                </div>
-                <div className="project-data">
+
+        {projects.map((project) => (
+          <Fade>
+            <div className="project-cont">
+              <div className="center project-card">
+                <div className="center project-data">
                   <h1 className="name">{project.name}</h1>
                   <p className="info">{project.info}</p>
                   <ul className="project-skills">
                     <li className="skill">{project.skill}</li>
                   </ul>
                   <div className="project-links">
-                 <form action={project.source} method="get" target="_blank">
-                   <button className="demo">View Source</button>
-                 </form>
-                 </div>      
+                    {/* <form action={project.demo} method="get" target="_blank">
+                      <button className="demo">{project.demo_type}</button>
+                    </form> */}
+                    <form action={project.source} method="get" target="_blank">
+                      <button className="demo">View Source</button>
+                    </form>
+                  </div>
                 </div>
+                <div className="center project-image">
+                  <div className={project.img}></div>
                 </div>
-              </Fade>
-          ))};
-        </div>
-
+              </div>
+            </div>
+          </Fade>
+        ))}
       </div>
     </div>
+    
+    // <div className="projects-section" id="projects">
+    //   <div className="project-box">
+    //     <Fade>
+    //       <h1 className="myProjects">My Projects</h1>
+    //     </Fade>
+    //   </div>
+    //   <div className="project-cont">
+    //     <div className="project-cards">
+    //       {projects.map((project)=> (
+    //           <Fade>
+    //             <div className="each-card">
+    //             <div className="center project-image">
+    //               <div className={project.img}></div>
+    //             </div>
+    //             <div className="project-data">
+    //               <h1 className="name">{project.name}</h1>
+    //               <p className="info">{project.info}</p>
+    //               <ul className="project-skills">
+    //                 <li className="skill">{project.skill}</li>
+    //               </ul>
+    //               <div className="project-links">
+    //              <form action={project.source} method="get" target="_blank">
+    //                <button className="demo">View Source</button>
+    //              </form>
+    //              </div>      
+    //             </div>
+    //             </div>
+    //           </Fade>
+    //       ))};
+    //     </div>
+
+    //   </div>
+    // </div>
   );
 };
 
