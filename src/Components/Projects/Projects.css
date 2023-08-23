@@ -22,15 +22,13 @@
   display: flex;
   justify-content: center;
   background-color: #212121;
-  margin: 30px;
+  margin: 50px;
   border-radius: 17px;
   padding-top: 50px;
-  box-shadow: 0 3px 22px 0 rgba(0, 0, 0, 1);
+  box-shadow: 6px 6px 22px 0 #070707;
+
 }
 
-.project-cont:hover {
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 1);
-}
 .project-card {
   margin-bottom: 50px;
   width: 90%;
@@ -38,7 +36,6 @@
   align-self: center;
   display: flex;
   flex-direction: row-reverse;
-  
   
 }
 
@@ -59,8 +56,8 @@
   padding: 20px;
 }
 
-.img-rumi {
-  background: url(/src/Images/Rumi.png);
+.img-perform-here-landing {
+  background: url(/src/Images/perform-here-landing.png);
   opacity: 0.75;
   background-position: center;
   background-size: cover;
@@ -187,7 +184,7 @@
   border-radius: 10px;
 }
 
-.img-hacks:hover,
+/* .img-hacks:hover,
 .img-robo:hover,
 .img-face:hover,
 .img-portfolio:hover,
@@ -198,8 +195,7 @@
 .img-rumi:hover,
 .img-info:hover {
   opacity: 1;
-  /* cursor: pointer; */
-}
+} */
 
 .name {
   font-size: 35px;
