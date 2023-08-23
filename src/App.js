@@ -15,16 +15,21 @@ function App() {
     setloading(true);
     setTimeout(() => {
       setloading(false);
-    }, 2300);
+    }, 3500);
   }, []);
   return (
     <div>
       {loading ? (
-        <div class="loading">
-          <Fade>
-            <h2>Hey There!</h2>
-          </Fade>
-          <div className="wave">👋</div>
+        <div class="loading-section">
+	        <h1 className="loading-h1">
+            <span className="w-span">W</span>
+            <span className="w-span">e</span>
+            <span className="w-span">l</span>
+            <span className="w-span">c</span>
+            <span className="w-span">o</span>
+            <span className="w-span">m</span>
+            <span className="w-span">e</span>
+          </h1>
         </div>
       ) : (
         <div>

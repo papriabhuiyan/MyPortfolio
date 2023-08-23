@@ -209,7 +209,7 @@ h2 {
   font-size: 30px;
 }
 
-@media only screen and (max-device-width: 700px) {
+@media only screen and (max-device-width: 800px) {
   .header {
     top: 80px;
     height: 500px;
@@ -217,11 +217,16 @@ h2 {
 
   .title h1 {
     font-size: 50px;
+
   }
 
   .header-box h2 {
     margin: 0px;
     font-size: 22px;
+  }
+
+  .gooey {
+    width: 470px; height: 380px;
   }
 }
 

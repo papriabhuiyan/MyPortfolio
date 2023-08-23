@@ -41,7 +41,7 @@ const Skills = () => {
         {skills.map((skill) => (
             <Fade>
                 <div className="skills-cont">
-                    <div className=" center skills-card floating">
+                    <div className=" center skills-card floating zoom">
                         <p className="skill-name"> {skill} </p>
                     </div>
                 </div>
