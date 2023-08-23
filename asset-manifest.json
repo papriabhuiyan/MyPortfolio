@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/MyPorfolio/static/css/main.4e58599a.chunk.css",
-    "main.js": "/MyPorfolio/static/js/main.65891cbd.chunk.js",
-    "main.js.map": "/MyPorfolio/static/js/main.65891cbd.chunk.js.map",
-    "runtime-main.js": "/MyPorfolio/static/js/runtime-main.a7ff3745.js",
-    "runtime-main.js.map": "/MyPorfolio/static/js/runtime-main.a7ff3745.js.map",
-    "static/js/2.95f75ac0.chunk.js": "/MyPorfolio/static/js/2.95f75ac0.chunk.js",
-    "static/js/2.95f75ac0.chunk.js.map": "/MyPorfolio/static/js/2.95f75ac0.chunk.js.map",
-    "index.html": "/MyPorfolio/index.html",
-    "static/css/main.4e58599a.chunk.css.map": "/MyPorfolio/static/css/main.4e58599a.chunk.css.map",
-    "static/js/2.95f75ac0.chunk.js.LICENSE.txt": "/MyPorfolio/static/js/2.95f75ac0.chunk.js.LICENSE.txt",
-    "static/media/Papria_Bhuiyan_Resume.08feda4d.pdf": "/MyPorfolio/static/media/Papria_Bhuiyan_Resume.08feda4d.pdf",
-    "static/media/Projects.css": "/MyPorfolio/static/media/pixelgram.9180b4c7.png",
-    "static/media/Navbar.css": "/MyPorfolio/static/media/svg_2.62b60d92.svg"
+    "main.css": "/MyPortfolio/static/css/main.3d68800e.chunk.css",
+    "main.js": "/MyPortfolio/static/js/main.65891cbd.chunk.js",
+    "main.js.map": "/MyPortfolio/static/js/main.65891cbd.chunk.js.map",
+    "runtime-main.js": "/MyPortfolio/static/js/runtime-main.c936382b.js",
+    "runtime-main.js.map": "/MyPortfolio/static/js/runtime-main.c936382b.js.map",
+    "static/js/2.95f75ac0.chunk.js": "/MyPortfolio/static/js/2.95f75ac0.chunk.js",
+    "static/js/2.95f75ac0.chunk.js.map": "/MyPortfolio/static/js/2.95f75ac0.chunk.js.map",
+    "index.html": "/MyPortfolio/index.html",
+    "static/css/main.3d68800e.chunk.css.map": "/MyPortfolio/static/css/main.3d68800e.chunk.css.map",
+    "static/js/2.95f75ac0.chunk.js.LICENSE.txt": "/MyPortfolio/static/js/2.95f75ac0.chunk.js.LICENSE.txt",
+    "static/media/Papria_Bhuiyan_Resume.08feda4d.pdf": "/MyPortfolio/static/media/Papria_Bhuiyan_Resume.08feda4d.pdf",
+    "static/media/Projects.css": "/MyPortfolio/static/media/pixelgram.9180b4c7.png",
+    "static/media/Navbar.css": "/MyPortfolio/static/media/svg_2.62b60d92.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a7ff3745.js",
+    "static/js/runtime-main.c936382b.js",
     "static/js/2.95f75ac0.chunk.js",
-    "static/css/main.4e58599a.chunk.css",
+    "static/css/main.3d68800e.chunk.css",
     "static/js/main.65891cbd.chunk.js"
   ]
 }
