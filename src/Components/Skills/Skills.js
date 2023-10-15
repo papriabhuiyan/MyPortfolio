@@ -21,6 +21,8 @@ const Skills = () => {
         "PL/SQL",
         "PostgreSQL",
         "MySQL",
+        "R",
+        "Tableau",
         "Git",
         "Swift",
         "Lighthouse",

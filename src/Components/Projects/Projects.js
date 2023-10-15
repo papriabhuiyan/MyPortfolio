@@ -24,6 +24,15 @@ const Projects = () => {
       img: "img-pixelgram",
     },
     {
+      name: "AI Article Summarizer",
+      info: "A responsive web application that allows users to input an article link and generates a summary of the article's content",
+      skill: "HTML  CSS  React RapidAPI OpenAIAPI",
+      demo: "",
+      demo_type: "Youtube Demo",
+      source: "https://github.com/papriabhuiyan/AI-Article-Summarizer/",
+      img: "img-ai-app",
+    },
+    {
       name: "AI Shirt Customizer",
       info: "A responsive web app that allows the user to customize their shirt by changing the color of the shirt, adding different logos and prints on the shirt by using DALL.E",
       skill: "HTML  CSS  React  OpenAI API",
